@@ -9,60 +9,56 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <script src="https://kit.fontawesome.com/e74ed8ddff.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    
     <header>
         <nav class="menuPrincipal">
+            <a href="#inicio"><img class="logo" src="./img/logo.png" alt="logo"></a>
             <ul>
-                <li><a href="#"><img class="foto" src="./img/logo.png" alt="logo"></a></li>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#inicio">Contacto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="contenedorGeneral">
-        <section class="fotoPersonal">
+        <section id="inicio">
             <figure>
-                <img src="./img/foto_enel.jpg" alt="Foto de la persona">
+                <img src="./img/400.jpg" alt="Foto de la persona">
             </figure>
-        </section>
-        <section class="articuloPersonal">
             <article>
-                <h1>Hola! Soy Enel</h1>
+                <h1 class="tituloPrincipal">Hola! Soy Enel</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus nulla accusamus est voluptatum
                     iusto optio distinctio, dolorem amet ducimus eveniet ea, quod soluta similique, eaque eum nobis
+                    praesentium provident. iusto optio distinctio, dolorem amet ducimus eveniet ea, quod soluta similique, eaque eum nobis
                     praesentium provident.</p>
 
-                <p class="descargaCv">Descarga CV
+                <li class="botonCv">Descarga CV
                     <a href="./archivos/Cv Enel Sotillo.pdf"></a>
-                </p>
+                </li>
             </article>
         </section>
-        <section class="otroTemas">
+        <section id="contacto">
             <article>
-                <h3>Hablemos!</h3>
+                <h3 class="tituloSecundario">Hablemos!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem praesentium sapiente voluptas
                     tempora accusantium. Possimus earum esse porro, suscipit mollitia cumque ullam culpa! Laboriosam
                     iusto incidunt nobis exercitationem minus.</p>
             </article>
-            <footer class="piePaginas">
                 <ul class="redesSociales">
                     <li><a class="redes" target="_blank" href="mailto:email@sample.com"><img src="./img/mail.png" alt=""></a></li>
                     <li><a class="redes" target="_blank" href="https://linkedin.com/in/enel-sotillo-cv"><img src="./img/linkedin.png" alt=""></a></li>
                     <li><a class="redes" target="_blank" href="https://github.com/enelsotillo"><img src="./img/github.png" alt=""></a></li>
                 </ul>
-                <ul class="pieDePie">
+        </section>
+            <footer class="pieDePaginas">
+                <ul>
                     <span>Codigo LATAM</span>
                 </ul>
             </footer>
-        </section>
     </main>
-    <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
-    <!-- En este archivo escriban su HTML -->
-
 </body>
-
 </html>
