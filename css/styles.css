@@ -163,3 +163,11 @@ figure{
     align-items: center;
     height: 90px;
 }
+.formularioGeneral{
+    width: 110%;
+    margin-top: 10rem;
+    border: #000000 solid 2px;
+}
+.formularioGeneral form h2{
+    text-align: center;
+}
